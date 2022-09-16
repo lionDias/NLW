@@ -10,6 +10,10 @@ body {
     background-size: 100% auto;
     background-color: #121214;
 }
+.nextLevel {
+    background-image: url(./img/Background.nextLevel.jpg);
+
+}
 header {
     max-width: 580px;
     width: 90%;
@@ -24,6 +28,9 @@ header div {
     padding: 4px;
     display: flex;
     height: 120px;
+}
+.divNextLevel {
+    background-image: linear-gradient(90deg, #CE4747 0%, #6E3DFB 50.52%, #77E25C 100%);
 }
 header div img {
     width: 100%;
@@ -55,12 +62,12 @@ div p {
     letter-spacing: -0.18px;
     color: #A1A1AA;
 }
-.gameList img {
+.gameList img, .filmList img, .seriesList img {
     width: 90px;
     border-radius: 8px;
     border: 1px solid #443E54;
 }
-.channelList img {
+.channelList img  {
     width: 70px;
     border-radius: 50%;
     border: 1px solid #443E54;
@@ -70,6 +77,9 @@ section {
     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
     border-radius: 10px;
     padding-top: 4px;
+}
+.sectionNextLevel {
+    background-image: linear-gradient(90deg, #CE4747 0%, #6E3DFB 50.52%, #77E25C 100%);
 }
 section div {
     background-color: #2A2634;
@@ -83,6 +93,26 @@ section ul li {
 
 section ul li:hover {
     transform: scale(1.1);
+}
+.button {
+    max-width: 100px;
+    max-height: 50px;
+    transition: transform .3s;
+}
+.button:hover {
+    transform: scale(1.1);
+}
+.divButton {
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #2A2634;
+}
+.divButton p {
+    border: 0;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
 }
 
 /* animation */
